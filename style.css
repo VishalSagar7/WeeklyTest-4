@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    width: 100%;
+}
+
+#section-1{
+    width: 100%;
+    height: 100vh;
+}
+#section-1 nav{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(53, 52, 52);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding-inline: 170px;
+    position: fixed;
+}
+#section-1 .navbar{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#section-1 .navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+#section-1 .navbar a:hover{
+    color: gainsboro;
+}
+#section-1 #home{
+    height: 100%;
+    width: 100%;
+    background: url('assets/bgimg2.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#section-1 #home .home-box{
+    height: 250px;
+    width: 60%;
+    color: white;
+    text-align: center;
+}
+#section-1 #home .home-box h1{
+    font-size: 60px;
+    text-shadow: 1px 1px 1px rgb(72, 71, 71);
+}
+#section-1 #home .home-box p{
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(57, 57, 57);
+    margin-top: 15px;
+}
+#section-1 #home .home-box button {
+    background-color: white;
+    color: black;
+    padding: 13px 26px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 300ms;
+    border: 2px solid transparent;
+}
+
+#section-1 #home .home-box button:hover {
+    background: rgba(255, 255, 255, 0.25); 
+    color: white;
+    border: 2px solid white;
+}
+#section-2{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+#section-2-parent{
+    /* height: 100%; */
+    width: 80%;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+#section-2 .child-divs{
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    border-radius: 5px;
+    padding-inline: 30px;
+}
+#section-2 .child-divs img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 25px;
+
+}
+#section-2 .child-divs h2{
+    padding-top: 20px;
+}
+#section-2 .child-divs p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#section-3{
+    padding-top: 80px;
+    /* height: 1000px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+}
+.section-3-main{
+    /* height: 900px; */
+    width: 80%;
+    background-color: transparent;
+    padding-top: 30px;
+}
+.section-3-main-catagory{
+    margin-top: 30px;
+}
+.section-3-main-catagory h3{
+    margin-bottom: 10px;
+}
+.section-3-main-catagory p{
+    line-height: 1.6;
+}
+.section-3-main-catagory ul{
+    margin-bottom: 10px;
+}
+.section-3-main-catagory ul li{
+    margin-top: 10px;
+}
+
+
+#section-4{
+    /* height: 1000px; */
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(234, 234, 234);
+}
+
+.last-div{
+    height: 500px;
+    width: 80%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.last-div .last-div-1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.last-div .last-div-1 div{
+    height: 30px;
+    margin-block: 2px;
+}
+.last-div .last-div-1 div i{
+    color: rgb(86, 85, 85);
+    font-size: 20px;
+}
+.last-div .last-div-1 div span{
+    margin-left: 10px;
+}
+.last-div .last-div-2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-div .last-div-2 form{
+    height: 380px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.last-div .last-div-2 form input{
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(188, 188, 188);
+    outline: none;
+}
+.last-div .last-div-2 form textarea{
+    height: 130px;
+    padding-left: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(188, 188, 188);
+    outline: none;
+}
+.last-div .last-div-2 form button{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding-block: 10px;
+    /* padding: 10px 25px; */
+    width: 35%;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    cursor: pointer;
+} 
